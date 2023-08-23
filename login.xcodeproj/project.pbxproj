@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3125CD4B2A7F39A2008FFB33 /* DisplayActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3125CD4A2A7F39A2008FFB33 /* DisplayActionView.swift */; };
+		312B500B2A8DAA280045BC09 /* AuthorizationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312B500A2A8DAA280045BC09 /* AuthorizationViewModel.swift */; };
+		31384BEC2A85C55900904889 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31384BEB2A85C55900904889 /* LoginView.swift */; };
+		31384BEE2A85C56D00904889 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31384BED2A85C56D00904889 /* UserModel.swift */; };
+		31384BF12A85C80500904889 /* MyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31384BF02A85C80500904889 /* MyTextField.swift */; };
+		3157080D2A8600BF00241637 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3157080C2A8600BF00241637 /* SignupView.swift */; };
 		31630EAF2A7E210700ED1346 /* loginApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31630EAE2A7E210700ED1346 /* loginApp.swift */; };
-		31630EB12A7E210700ED1346 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31630EB02A7E210700ED1346 /* ContentView.swift */; };
+		31630EB12A7E210700ED1346 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31630EB02A7E210700ED1346 /* HomeView.swift */; };
 		31630EB32A7E210900ED1346 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31630EB22A7E210900ED1346 /* Assets.xcassets */; };
 		31630EB62A7E210900ED1346 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31630EB52A7E210900ED1346 /* Preview Assets.xcassets */; };
 		31630EC02A7E210900ED1346 /* loginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31630EBF2A7E210900ED1346 /* loginTests.swift */; };
 		31630ECA2A7E210A00ED1346 /* loginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31630EC92A7E210A00ED1346 /* loginUITests.swift */; };
 		31630ECC2A7E210A00ED1346 /* loginUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31630ECB2A7E210A00ED1346 /* loginUITestsLaunchTests.swift */; };
+		31630ED92A7E2E0F00ED1346 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31630ED82A7E2E0F00ED1346 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3125CD4A2A7F39A2008FFB33 /* DisplayActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayActionView.swift; sourceTree = "<group>"; };
+		312B500A2A8DAA280045BC09 /* AuthorizationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationViewModel.swift; sourceTree = "<group>"; };
+		31384BEB2A85C55900904889 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		31384BED2A85C56D00904889 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		31384BF02A85C80500904889 /* MyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextField.swift; sourceTree = "<group>"; };
+		3157080C2A8600BF00241637 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
 		31630EAB2A7E210700ED1346 /* login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = login.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31630EAE2A7E210700ED1346 /* loginApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginApp.swift; sourceTree = "<group>"; };
-		31630EB02A7E210700ED1346 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		31630EB02A7E210700ED1346 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		31630EB22A7E210900ED1346 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31630EB52A7E210900ED1346 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		31630EBB2A7E210900ED1346 /* loginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = loginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +57,7 @@
 		31630EC52A7E210900ED1346 /* loginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = loginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31630EC92A7E210A00ED1346 /* loginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginUITests.swift; sourceTree = "<group>"; };
 		31630ECB2A7E210A00ED1346 /* loginUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		31630ED82A7E2E0F00ED1346 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +85,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31384BE92A85C53A00904889 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				31384BED2A85C56D00904889 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		31384BEA2A85C54500904889 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				315708092A85E37800241637 /* Home */,
+				315708082A85E35900241637 /* Authorization */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		31384BEF2A85C7F000904889 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				31384BF02A85C80500904889 /* MyTextField.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		315708082A85E35900241637 /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				31384BEB2A85C55900904889 /* LoginView.swift */,
+				3157080C2A8600BF00241637 /* SignupView.swift */,
+				312B500A2A8DAA280045BC09 /* AuthorizationViewModel.swift */,
+			);
+			path = Authorization;
+			sourceTree = "<group>";
+		};
+		315708092A85E37800241637 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				31630EB02A7E210700ED1346 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		31630EA22A7E210700ED1346 = {
 			isa = PBXGroup;
 			children = (
@@ -94,10 +151,14 @@
 		31630EAD2A7E210700ED1346 /* login */ = {
 			isa = PBXGroup;
 			children = (
+				31384BEF2A85C7F000904889 /* Component */,
+				31384BEA2A85C54500904889 /* View */,
+				31384BE92A85C53A00904889 /* Model */,
 				31630EAE2A7E210700ED1346 /* loginApp.swift */,
-				31630EB02A7E210700ED1346 /* ContentView.swift */,
 				31630EB22A7E210900ED1346 /* Assets.xcassets */,
 				31630EB42A7E210900ED1346 /* Preview Content */,
+				31630ED82A7E2E0F00ED1346 /* ViewModel.swift */,
+				3125CD4A2A7F39A2008FFB33 /* DisplayActionView.swift */,
 			);
 			path = login;
 			sourceTree = "<group>";
@@ -257,7 +318,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31630EB12A7E210700ED1346 /* ContentView.swift in Sources */,
+				312B500B2A8DAA280045BC09 /* AuthorizationViewModel.swift in Sources */,
+				31630EB12A7E210700ED1346 /* HomeView.swift in Sources */,
+				31384BF12A85C80500904889 /* MyTextField.swift in Sources */,
+				3125CD4B2A7F39A2008FFB33 /* DisplayActionView.swift in Sources */,
+				31630ED92A7E2E0F00ED1346 /* ViewModel.swift in Sources */,
+				3157080D2A8600BF00241637 /* SignupView.swift in Sources */,
+				31384BEC2A85C55900904889 /* LoginView.swift in Sources */,
+				31384BEE2A85C56D00904889 /* UserModel.swift in Sources */,
 				31630EAF2A7E210700ED1346 /* loginApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +485,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"login/Preview Content\"";
+				DEVELOPMENT_TEAM = AQHNXZHZ8T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -424,6 +493,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -445,6 +515,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"login/Preview Content\"";
+				DEVELOPMENT_TEAM = AQHNXZHZ8T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -452,6 +523,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

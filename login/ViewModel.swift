@@ -6,3 +6,11 @@
 //
 
 import Foundation
+class ViewModel : ObservableObject {
+    
+    @Published var name : String = ""
+    @Published var isSecure : Bool = false
+    @Published var isEnabled : Bool = true
+    @Published var count : Int = 0
+
+}

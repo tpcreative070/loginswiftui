@@ -6,3 +6,15 @@
 //
 
 import Foundation
+
+class UserModel : Hashable {
+    var username : String?
+    var password:  String?
+    static func == (lhs: UserModel, rhs: UserModel) -> Bool {
+        return lhs.username == rhs.username
+    }
+    
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(username)
+    }
+}

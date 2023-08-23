@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct HomeView: View {
     @State private var isSecure : Bool = true
     @StateObject private var model  = ViewModel()
     @State private var showsheet : Bool = false
     var body: some View {
-        NavigationStack {
+        NavigationView {
             VStack(spacing:50) {
                 Image(systemName: "globe")
                     .imageScale(.large)
@@ -28,7 +28,7 @@ struct ContentView: View {
                 }
                 Button("Login") {
                     showsheet.toggle()
-                }.sheet(isPresented: $showsheet) {
+                }.fullScreenCover(isPresented: $showsheet) {
                     LoginView()
                 }
             }
@@ -54,6 +54,6 @@ struct CustomButton : View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        HomeView()
     }
 }
